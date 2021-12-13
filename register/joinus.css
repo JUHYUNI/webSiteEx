@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+main {
+  overflow: hidden;
+  box-shadow:
+  2.4px 2.4px 3.6px rgba(0, 0, 0, 0.024),
+  4.3px 4.3px 10px rgba(0, 0, 0, 0.035),
+  6.3px 6.3px 24.1px rgba(0, 0, 0, 0.046),
+  15px 15px 80px rgba(0, 0, 0, 0.07);
+
+  width: 720px;
+  margin: 60px auto 80px;
+}
+main form { /* 360 */
+  float: left;
+  width: 280px;
+  text-align: left;
+  padding: 40px;
+  font-size: 20px;
+}
+main form h3 {
+  font-size: 26px;
+  font-family: 'GmarketSans', sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+}
+main form label {
+  display: block;
+}
+main form input {
+  outline: none;
+  border: 1px solid #999;
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #0f2c67;
+  margin-bottom: 17px;
+}
+main form input:focus {
+  background-color: #efefef;
+}
+/* main form input[type="checkbox"] */
+main form input[name=user_chk] {
+  width: auto;
+  margin-right: 6px;
+}
+main form button {
+  width: 100%;
+  border: none;
+  background-color: rgb(13, 53, 25);
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  cursor: pointer;
+}
+main form button:hover {
+  background-color: rgb(158, 132, 101);
+}
+main form p {
+  text-align: right;
+  font-size: 14px;
+}
+main form p a {
+  display: block;
+  text-decoration: underline;
+}
+main img {
+  float: left;
+}
